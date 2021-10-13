@@ -1,8 +1,6 @@
 html {
-    /* Setting a base font size of 10px give us easier rem calculations
-       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
-     */
-    font-size: 12px;
+    
+    font-size: 10px;
   }
   
   figure {
@@ -10,14 +8,13 @@ html {
   }
 
 
-  body {
-    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  #main {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
       'Helvetica Neue', Arial, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.5;
-    text-align: left;
-    color: #ECEFF1;
+    text-align: center;
+    color: #1d0a75;
     margin: 1em;
   }
    
@@ -35,10 +32,7 @@ html {
     }
   }
   
-  h2 {
-    font-size: 3.25rem;
-  }
-  
+   
   a {
     color: #090779;
   }
@@ -47,12 +41,7 @@ html {
     color: #280463;
   }
   
-  #main {
-    box-sizing: content-box;
-    width: 100%;
-    padding: 15px;
-    background: #01070a;
-  }
+ 
   
   @media (max-width: 460px) {
     #main {
@@ -61,7 +50,7 @@ html {
   }
   
   img {
-    display: block;
+    display: float;
     width: 40%;
     max-width: 100%;
     height: auto;
@@ -89,104 +78,12 @@ html {
     text-align: justify;
   }
   
-  #headline {
+  h3 {
      text-align: left;
      font-family: Oswald;   
      font-size: 25px;
   }
   
-  #a-container {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-margin-top: 3em;
-margin-left: 1em;
-margin-right: 1em;
-align-items: stretch;
-
-  }
-
-  #a-box1 {
-   
-    width: auto;
-    height: auto;
-    align-items: center;
-    flex-shrink: 1;
-   
-  }
-  .box-img {
-width: 80%;
-height: auto;
-justify-content: center;
-  }
-
-  .text-img {
-display: flex;
-width: auto;
-justify-content: center;
-font-size: 1.5rem;
-  }
-
-  #a-box2 {
-    width: 70%;
-    height: auto;
-    align-self: center;
-    flex-shrink: 1;
-    padding-left: 1em;
-  }
-
-#b-container {
-  display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-margin-top: 3em;
-margin-left: 1em;
-margin-right: 1em;
-align-items: stretch;
-}
-
-#b-box1 {
-  
-    width: 30em;
-    height: auto;
-    align-self: center;
-    flex: 2 2 115px;
-    
-  
-}
-
-#b-box2 {
-    width: 35em;
-    height: auto;
-    align-self: center;
-    flex: 2 2 185px;
-}
-#c-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 3em;
-  margin-left: 1em;
-  margin-right: 1em;
-  align-items: stretch;
-}
-
-#c-box1 {
-  width: auto;
-  height: auto;
-  align-items: center;
-  flex: 2 2 110px;
-  padding-top: 1em;
-}
-
-#c-box2 {
-  width: auto;
-  height: auto;
-  align-self: center;
-  flex: 2 2 190px;
-  padding-left: 1em;
-    
-}
   
   blockquote {
   font-style: italic;
@@ -195,3 +92,6 @@ align-items: stretch;
   text-align: left;
   }
   
+  #a-container {
+    float: left;
+  }
