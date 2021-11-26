@@ -1,91 +1,98 @@
-main {
-  background-color: #144e75;
-  padding-top: 40px;
-  font-family: Raleway;
-  text-align: left;
-  font-size: 18px;
-  margin: 5px;
-  border: 1px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ff9966;
 }
 
-#main {
-  padding: 10px;
-}
-
-#title {
-  text-align: center;
+.title {
+  font-family: raleway;
   font-weight: bold;
-  font-size: 26px;
+  text-align: center;
+  font-size: 48px;
 }
 
-#img-div {
-  display: flexbox;
+.subtitle {
   text-align: center;
 }
 
-#image {
+img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.caption {
+  text-align: center;
+  font-size: 16px;
+}
+.headline {
+  font-family: Oswald;
+  font-size: 30px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 400px;
+  margin: 0px 0px 0px 0px;
+  flex-wrap: wrap;
+}
+
+.text1 {
   width: 60%;
   height: auto;
 }
 
-#img-caption {
-  text-align: center;
-}
-
-#tribute-info {
-  font-size: 16px;
-}
-
-.heading {
-  font-family: Oswald;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-#section-one {
-  margin: 0px;
-  padding: 5px;
-  float: right;
-  width: 50%;
+.image1 {
+  width: 40%;
   height: auto;
+  font-size: 12px;
 }
-
-#stop-one {
-  clear: right;
-}
-
 .container2 {
-  margin: 0px;
-  padding: 5px;
-  display: flexbox;
-  width: 100%;
+  display: flex;
   flex-direction: row;
-}
-
-.img2 {
-  width: 350px;
-  height: auto;
+  justify-content: center;
+  height: 400px;
+  margin: 0px 0px 0px 0px;
+  flex-wrap: wrap;
 }
 
 .text2 {
-  width: 45%;
+  width: 60%;
   height: auto;
 }
 
-#tribute-link {
-  font-size: 18px;
+.image2 {
+  width: 40%;
+  height: auto;
+  font-size: 12px;
+  text-align: center;
+}
+.container3 {
+  display: flex;
+   flex-direction: row;
+  justify-content: center;
+  height: 400px;
+  width: auto;
+  margin: 0px 0px 0px 0px;
+  flex-wrap: wrap;
+}
+
+.text3 {
+  width: 60%;
+  height: auto;
+}
+
+.image3 {
+  width: 40%;
+  height: auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+}
+
+.links {
   text-align: justify;
-}
-
-#link-img {
-  display: flexbox;
-  text-align: center;
-  flex-direction: column;
-}
-#link-image {
-  width: 400px;
-  height: auto;
-}
-#link-caption {
-  text-align: center;
 }
